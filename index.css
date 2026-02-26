@@ -1,0 +1,108 @@
+*
+{
+    margin: 0px;
+
+}
+.introsection
+{
+    margin-bottom: 0px;
+    height: 25vw;
+    border: 2px solid violet;
+    background-color: #1F2937;
+}
+.headerbar
+{
+    display: flex;
+      border: 2px solid green;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.headerlogo
+{
+    margin-right: auto;
+    margin-left: 100px;
+    color: #F9FAF8;
+    font-size: 24px;
+    
+}
+.headerlink.three
+{
+    border: 2px solid black;
+    margin-right: 100px;
+}
+.headerlink
+{
+    border: 2px solid black;
+    margin-right: 20px;
+    
+}
+.introsection
+{
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.mainbar
+{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.textbar
+{
+    margin-left: 100px;
+}
+.mainpic
+{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 100px;
+    margin-left: auto;
+    
+}
+.secondtext
+{
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.maintext
+{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+button
+{
+    background-color: #3882F6;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    
+}
+
+.features
+{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 25vw;
+}
+.featuretext
+{
+    border: 2px solid blue;
+    height: 40px;
+}
+.featurecontent
+{
+    border: 2px solid green;
+    height: 500px;
+}
