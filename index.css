@@ -21,7 +21,7 @@
 .headerlogo
 {
     margin-right: auto;
-    margin-left: 100px;
+    margin-left: 80px;
     color: #F9FAF8;
     font-size: 24px;
     
@@ -29,7 +29,7 @@
 .headerlink.three
 {
     border: 2px solid black;
-    margin-right: 100px;
+    margin-right: 80px;
 }
 .headerlink
 {
