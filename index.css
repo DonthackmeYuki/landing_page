@@ -7,14 +7,12 @@
 {
     margin-bottom: 0px;
     height: 25vw;
-    border: 2px solid violet;
     background-color: #1F2937;
     box-sizing: border-box;
 }
 .headerbar
 {
     display: flex;
-    border: 2px solid green;
     justify-content: center;
     padding: 20px;
     
@@ -33,7 +31,6 @@
 }
 .headerlink
 {
-    border: 2px solid black;
     margin: 15px;
     box-shadow: none;
     border: none;
@@ -92,7 +89,6 @@ button
 
 .features
 {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -101,7 +97,6 @@ button
 }
 .featuretext
 {
-    border: 2px solid blue;
     height: 40px;
     margin-top: 80px;
     font-family: sans-serif;
@@ -111,7 +106,7 @@ button
 }
 .featurecontent
 {
-    border: 2px solid black;
+
     height: 250px;
     padding: 50px;
     width: 1200px;
@@ -135,8 +130,61 @@ figcaption
 }
 .footer-design
 {
-    border: 2px solid purple;
+
     display: flex;
     height: 25vw;
     background-color: #E5E7Eb;
+    justify-content: center;
+    align-items: center;
+}
+.quote-block
+{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 1500px;
+    align-items: center;
+}
+.quote
+{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.quote strong
+{
+    font-weight: 800;
+}
+.call-to-action
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+}
+.box-signup
+{
+    height: 170px;
+    background-color: #3882F6;
+    border-radius: 7px;
+    width: 1300px;
+    display: flex; /**flex again to arrange signup and text**/
+    justify-content: center;
+    align-items: center;
+    gap: 35vw;
+}
+.actiontext
+{
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+button.button1{
+    
+    border: 2px solid #F9FAF8;
 }
