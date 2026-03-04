@@ -9,39 +9,39 @@
     height: 25vw;
     border: 2px solid violet;
     background-color: #1F2937;
+    box-sizing: border-box;
 }
 .headerbar
 {
     display: flex;
-      border: 2px solid green;
+    border: 2px solid green;
     justify-content: center;
     padding: 20px;
     
 }
-.headerlogo
+.logo_pic
 {
     margin-right: auto;
     margin-left: 80px;
-    color: #F9FAF8;
-    font-size: 24px;
-    
+    height: 75px;
+    width: 75px;
+    border-radius: 5px;
 }
 .headerlink.three
 {
-    border: 2px solid black;
     margin-right: 80px;
 }
 .headerlink
 {
     border: 2px solid black;
-    margin-right: 20px;
-    
+    margin: 15px;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
 }
-.introsection
-{
-    border: 2px solid black;
-    box-sizing: border-box;
-}
+
 .mainbar
 {
     display: flex;
@@ -66,6 +66,7 @@
     color: #E5E7EB;
     font-size: 18px;
     margin-bottom: 20px;
+    font-family: sans-serif;
 }
 .maintext
 {
@@ -85,6 +86,7 @@ button
     color: white;
     font-weight: 900;
     font-size: 18px;
+    font-family: sans-serif;
     
 }
 
@@ -93,16 +95,48 @@ button
     border: 2px solid red;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 25vw;
+    align-items: center;
+    height: 35vw;
+    
 }
 .featuretext
 {
     border: 2px solid blue;
     height: 40px;
+    margin-top: 80px;
+    font-family: sans-serif;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 .featurecontent
 {
-    border: 2px solid green;
-    height: 500px;
+    border: 2px solid black;
+    height: 250px;
+    padding: 50px;
+    width: 1200px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.featurepic
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
+figcaption
+{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.footer-design
+{
+    border: 2px solid purple;
+    display: flex;
+    height: 25vw;
+    background-color: #E5E7Eb;
 }
