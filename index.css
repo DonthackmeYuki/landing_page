@@ -6,7 +6,7 @@
 .introsection
 {
     margin-bottom: 0px;
-    height: 25vw;
+    height: 33vw;
     background-color: #1F2937;
     box-sizing: border-box;
 }
@@ -41,6 +41,7 @@
 
 .mainbar
 {
+    margin-top: 70px;
     display: flex;
     justify-content: center;
     gap: 150px;
