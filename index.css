@@ -6,7 +6,7 @@
 .introsection
 {
     margin-bottom: 0px;
-    height: 33vw;
+    height: 35vw;
     background-color: #1F2937;
     box-sizing: border-box;
 }
@@ -82,7 +82,7 @@ button
     width: 180px;
     height: 50px;
     color: white;
-    font-weight: 900;
+    font-weight: 400;
     font-size: 18px;
     font-family: sans-serif;
     
